@@ -1,0 +1,16 @@
+Hallo,
+
+dir wurde ein OTRS Account eingerichtet. OTRS ist ein Ticketsystem für eigehende E-Mails. Erreichen kannst du es über
+
+https://ada.piraten-lsa.de/otrs/
+
+Login: {}
+Passwort: {}
+
+Noch ein Tipp:
+In deinen Persönlichen Einstellungen (rechts oben auf deinen Namen klicken) kannst du einnstellen, dass du bei einem neuen Ticket eine Benachrichtigung erhälst (mittlere Spalte). Bitte achte darauf, dass du deine Queues in der rechten Spalte auswählst (mit STRG+Maus kannst du mehrere auswählen).
+
+--
+Piratenpartei Sachsen-Anhalt
+
+Dies ist eine automatische E-Mail.
