@@ -48,10 +48,15 @@ def create_user(firstname, lastname, username, password, email, groups):
 
     cmdargs = [command, '-f', firstname, '-l', lastname, '-p', password, '-e', email]
 
-    if len(groups) != 0:
-        for group in groups:
+    if groups is list:
+        if len(groups) != 0:
+            for group in groups:
+                cmdargs.append('-g')
+                cmdargs.append(group)
+    elif groups is string:
+        if groups != '':
             cmdargs.append('-g')
-            cmdargs.append(group)
+            cmdargs.append(groups)
 
     cmdargs.append(username)
 
